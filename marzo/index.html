@@ -63,7 +63,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <link rel="stylesheet" id="give-styles-css" href="/wp-content/plugins/give/build/assets/dist/css/give.css?ver=4.13.1" media="all">
 <link rel="stylesheet" id="give-donation-summary-style-frontend-css" href="/wp-content/plugins/give/build/assets/dist/css/give-donation-summary.css?ver=4.13.1" media="all">
 <link rel="stylesheet" id="givewp-design-system-foundation-css" href="/wp-content/plugins/give/build/assets/dist/css/design-system/foundation.css?ver=1.2.0" media="all">
-<link rel="stylesheet" id="uag-style-3134-css" href="/wp-content/uploads/uag-plugin/assets/3000/uag-css-3134.css?ver=1779157767" media="all">
+<link rel="stylesheet" id="uag-style-3134-css" href="/wp-content/uploads/uag-plugin/assets/3000/uag-css-3134.css?ver=1779232857" media="all">
 <link rel="stylesheet" id="kadence-global-css" href="/wp-content/themes/kadence/assets/css/global.min.css?ver=1.4.2" media="all">
 <style id="kadence-global-inline-css">
 /* Kadence Base CSS */
@@ -94,7 +94,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 //# sourceURL=wp-i18n-js-after
 </script>
 <script id="give-js-extra">
-var give_global_vars = {"ajaxurl":"/wp-admin/admin-ajax.php","checkout_nonce":"e3bf82ae4d","currency":"USD","currency_sign":"$","currency_pos":"before","thousands_separator":",","decimal_separator":".","no_gateway":"Please select a payment method.","bad_minimum":"The minimum custom donation amount for this form is","bad_maximum":"The maximum custom donation amount for this form is","general_loading":"Loading...","purchase_loading":"Please Wait...","textForOverlayScreen":"\u003Ch3\u003EProcessing...\u003C/h3\u003E\u003Cp\u003EThis will only take a second!\u003C/p\u003E","number_decimals":"2","is_test_mode":"1","give_version":"4.13.1","magnific_options":{"main_class":"give-modal","close_on_bg_click":false},"form_translation":{"payment-mode":"Please select payment mode.","give_first":"Please enter your first name.","give_last":"Please enter your last name.","give_email":"Please enter a valid email address.","give_user_login":"Invalid email address or username.","give_user_pass":"Enter a password.","give_user_pass_confirm":"Enter the password confirmation.","give_agree_to_terms":"You must agree to the terms and conditions."},"confirm_email_sent_message":"Please check your email and click on the link to access your complete donation history.","ajax_vars":{"ajaxurl":"/wp-admin/admin-ajax.php","ajaxNonce":"c138d3a1a8","loading":"Loading","select_option":"Please select an option","default_gateway":"manual","permalinks":"1","number_decimals":2},"cookie_hash":"aea6c42a478c8b1e51e67c7c441c050b","session_nonce_cookie_name":"wp-give_session_reset_nonce_aea6c42a478c8b1e51e67c7c441c050b","session_cookie_name":"wp-give_session_aea6c42a478c8b1e51e67c7c441c050b","delete_session_nonce_cookie":"0"};
+var give_global_vars = {"ajaxurl":"/wp-admin/admin-ajax.php","checkout_nonce":"f399f2c242","currency":"USD","currency_sign":"$","currency_pos":"before","thousands_separator":",","decimal_separator":".","no_gateway":"Please select a payment method.","bad_minimum":"The minimum custom donation amount for this form is","bad_maximum":"The maximum custom donation amount for this form is","general_loading":"Loading...","purchase_loading":"Please Wait...","textForOverlayScreen":"\u003Ch3\u003EProcessing...\u003C/h3\u003E\u003Cp\u003EThis will only take a second!\u003C/p\u003E","number_decimals":"2","is_test_mode":"1","give_version":"4.13.1","magnific_options":{"main_class":"give-modal","close_on_bg_click":false},"form_translation":{"payment-mode":"Please select payment mode.","give_first":"Please enter your first name.","give_last":"Please enter your last name.","give_email":"Please enter a valid email address.","give_user_login":"Invalid email address or username.","give_user_pass":"Enter a password.","give_user_pass_confirm":"Enter the password confirmation.","give_agree_to_terms":"You must agree to the terms and conditions."},"confirm_email_sent_message":"Please check your email and click on the link to access your complete donation history.","ajax_vars":{"ajaxurl":"/wp-admin/admin-ajax.php","ajaxNonce":"d3cbad97b2","loading":"Loading","select_option":"Please select an option","default_gateway":"manual","permalinks":"1","number_decimals":2},"cookie_hash":"aea6c42a478c8b1e51e67c7c441c050b","session_nonce_cookie_name":"wp-give_session_reset_nonce_aea6c42a478c8b1e51e67c7c441c050b","session_cookie_name":"wp-give_session_aea6c42a478c8b1e51e67c7c441c050b","delete_session_nonce_cookie":"0"};
 var giveApiSettings = {"root":"/wp-json/give-api/v2/","rest_base":"give-api/v2"};
 //# sourceURL=give-js-extra
 </script>
@@ -222,7 +222,7 @@ background-image: url("/wp-content/uploads/2025/12/Grupo-1217.png");
 
 .slide{
 	position: relative !important;
-	width:80% !important;
+	width:90% !important;
 }
 @media(min-width:1600px){
 	.slide{
@@ -597,7 +597,7 @@ var GiveDonationSummaryData = {"currencyPrecisionLookup":{"USD":2,"EUR":2,"GBP":
 <script src="/wp-includes/js/dist/api-fetch.min.js?ver=3a4d9af2b423048b0dee" id="wp-api-fetch-js"></script>
 <script id="wp-api-fetch-js-after">
 wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "c32d437a6d" );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "7c0b366017" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "/wp-admin/admin-ajax.php?action=rest-nonce";
